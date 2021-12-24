@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Aconteceu um bug que estava me impedindo de compactar o diretorio se o ":" estivesse separando as horas, por isso optei por separa-las com dois "-".
+
 data=$(date +"%H--%M--%S-%d-%m-%y")
 dir=$(pwd)
 
