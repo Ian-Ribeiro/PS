@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+num1=488
+num2=340
+
+if $(( $num1 > $num2 | bc )); then
+	echo 'ok'
+else
+	echo 'merda'
+fi
+
+echo "$(($num1+1))"

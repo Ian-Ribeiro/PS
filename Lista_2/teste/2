@@ -1,0 +1,10 @@
+#!/bin/bash
+
+a='oi'
+b='oi'
+
+if $(( $a == $b )); then
+	echo 'oi'
+else
+	echo 'merda'
+fi
