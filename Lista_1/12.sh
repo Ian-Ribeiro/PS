@@ -23,3 +23,4 @@ echo "Em execucao: $$"
 echo
 echo '$@: armazena o valor de todos os parametros passados.'
 echo "Em execucao: $@"
+echo

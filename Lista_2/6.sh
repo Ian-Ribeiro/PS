@@ -2,9 +2,9 @@
 
 larq=$(cat $1 | wc -l)
 
-if $([ ! -f $1 ]); then
+if [ ! -f $1 ]; then
 	echo 'BAD'
-elif $([ $larq -gt 3 ]); then
+elif [ $larq -gt 3 ]; then
 	echo 'BAD'
 else
 	echo "O nome do arquivo e: $1."

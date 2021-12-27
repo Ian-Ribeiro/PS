@@ -2,7 +2,7 @@
 
 read -p "Informe o caminho do arquivo o qual deseja substituir os numeros: " arq
 
-if $([ -f $arq ]); then
+if [ -f $arq ]; then
 	read -p "Informe por qual caracter deseja substitui-los: " x
 	cat $arq > /tmp/arq_temp
 	cat /tmp/arq_temp | tr '[0-9]' "${x}" > $arq

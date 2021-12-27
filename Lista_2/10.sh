@@ -3,7 +3,7 @@
 fc=1
 
 for i in $@; do
-	if $([ -f $i ]); then
+	if [ -f $i ]; then
 		echo "$i SIM"
 	else
 		echo "$i NAO"
@@ -11,7 +11,7 @@ for i in $@; do
 	fi
 done
 
-if $([ $fc -eq 1 ]); then
+if [ $fc -eq 1 ]; then
 	echo 'Acertou miseravi :D'
 fi
 

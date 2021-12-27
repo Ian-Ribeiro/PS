@@ -28,6 +28,8 @@ echo 'Substituicao aritmetica: quando e colocado uma expressao matematica entre 
 echo
 echo 'Exemplo:'
 echo
-echo '10 + 20 = $(( 10 + 20 )).'
+echo 'A frase: 10 + 20 = $(( 10 + 20 )).'
 echo "Torna-se: 10 + 20 = $(( 10 + 20 ))."
+echo
+echo 'A substituicao apenas funcionara se estiver entre aspas duplas, pois o shell interpreta tudo entre aspas simples como string.'
 echo
